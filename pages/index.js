@@ -8,6 +8,10 @@ function Home() {
         <Link href='/product'><a>Products</a> 
         </Link>
       </h2> 
+      <h2>
+        <Link href='/blog'><a>Blog</a> 
+        </Link>
+      </h2> 
     </> 
   )
 }

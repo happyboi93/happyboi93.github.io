@@ -1,15 +1,13 @@
 import Link from "next/link"
-import { useRouter } from "next/router"
 
 function Product() {
-    const router = useRouter()
-    const handleClick =()=>{
-        router.replace('/')
-        console.log('moving to homepage')
-    }
     return (
         <>
-            <button onClick={handleClick}>Home</button>
+            <h3>
+                <Link href='/'>
+                    <a>Home</a> 
+                </Link>
+            </h3>
             <h2><Link href='/product/1'>
                     <a>Product 1</a> 
                 </Link>

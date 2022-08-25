@@ -13,6 +13,7 @@ function Docs() {
             <h2>Viweing Docs of {params[0]}</h2>
         )
     }
-    return <h1>Welcome to The Docs Homepage</h1>
+    else {  return <h1>Welcome to The Docs Homepage</h1>
+}
 }
 export default Docs

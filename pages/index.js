@@ -1,7 +1,35 @@
+import Link from "next/link"
+
 function Home() {
-  return <h1>Home Page</h1>
+  return (
+    <>
+      <h1>Home Page</h1>
+      <h2>
+        <Link href='/product'><a>Products</a> 
+        </Link>
+      </h2> 
+    </> 
+  )
 }
 export default Home
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // import Head from 'next/head'
 // import Image from 'next/image'
 // import styles from '../styles/Home.module.css'

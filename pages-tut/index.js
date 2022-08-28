@@ -1,12 +1,17 @@
-import Navbar from "../comps/navbar";
-import Post from "./post";
+import Link from "next/link"
 
-
-const Home =()=> {
+function Home() {
   return (
     <>
-      <Navbar/>
-      <Post/>
+      <h1>Home Page</h1>
+      <h2>
+        <Link href='/product'><a>Products</a> 
+        </Link>
+      </h2> 
+      <h2>
+        <Link href='/blog'><a>Blog</a> 
+        </Link>
+      </h2> 
     </> 
   )
 }

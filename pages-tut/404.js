@@ -1,6 +1,4 @@
-import { useRouter } from "next/router"
-
-function PageNotFound() {
+function PageNotFound(params) {
     return(<h1>404 page not found with customised styling</h1>)
 }
 
